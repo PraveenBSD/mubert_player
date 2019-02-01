@@ -1,0 +1,9 @@
+from selenium import webdriver
+
+
+def openurl_function(url):
+    print 'running selenium'
+
+    driver = webdriver.Chrome()
+    driver.get(url)
+    return driver
